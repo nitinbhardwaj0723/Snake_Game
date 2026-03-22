@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.game-container {
+    padding: 20px;
+}
+
+canvas {
+    background: black;
+    border: 3px solid #00ffcc;
+    box-shadow: 0 0 20px #00ffcc;
+}
+
+.score-board {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+/* Game Over UI */
+#gameOverScreen {
+    margin-top: 20px;
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px red;
+}
+
+.restart-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #00ffcc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.restart-btn:hover {
+    background: #00ccaa;
+}
+
+.hidden {
+    display: none;
+}
